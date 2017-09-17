@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="icon" href="calc.png" sizes="128x128">
+    <title>LOGIC</title>
+<link  type="text/css" 
+       rel="stylesheet"   
+      href="math.css" />
+      <meta charset=utf-8>
+         
+      
+
+<script type="text/javascript">
+		function doMath(){
+var inputNum1=document.form1.input1.value;
+var result = Math.sqrt(inputNum1);
+document.form1.answer.value = result;
+}
+</script></head>
+<body>
+  <div  class=" img-bg">
+ <nav>
+ <ul>
+  <li><a  href="file:///C:/Users/S530472/Documents/44-563/A01/Katasani_Karunakar.html">HOME</a></li>
+  <li><a href="file:///C:/Users/S530472/Documents/44-563/A01/logic.html">LOGIC</a></li>
+  <li><a href="file:///C:/Users/S530472/Documents/44-563/A01/contact.html">CONTACT</a></li>
+</ul></nav></div>
+<div class="container set">
+    <h3> Square Root Of a Number </h3>
+<form name=form1>
+    
+Enter Number:
+<input type="text" name="input1" size=230>
+<input type="button" class="button" value="Calculate" onClick='doMath()'>
+<br>
+The square root is:
+<input type="text" name="answer" size=20>
+</form></div>
+</body>
+
+</html>
